@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
-    background: url('fundo.jpg') no-repeat center center fixed;
+    background: url('Fundo.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -27,75 +27,26 @@ body {
 
 h1 {
     color: #ff6a00;
-    font-size: 42px;
     text-align: center;
 }
 
-.hero {
-    text-align: center;
-    margin-top: 40px;
+.kit {
+    background: rgba(0,0,0,0.9);
+    border: 2px solid #ff6a00;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 .btn {
     display: inline-block;
     background: #ff6a00;
     color: white;
-    padding: 15px 25px;
-    margin-top: 15px;
+    padding: 12px 20px;
     text-decoration: none;
     border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
 }
 
-.btn:hover {
-    background: #ff8c2a;
-    transform: scale(1.05);
-}
-
-/* CARDS NORMAIS */
-.card {
-    background: rgba(0,0,0,0.8);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
-}
-
-/* KIT EM DESTAQUE */
-.kit {
-    background: rgba(0,0,0,0.9);
-    border: 2px solid #ff6a00;
-    border-radius: 12px;
-    padding: 25px;
-    margin: 25px 0;
-    transition: 0.3s;
-}
-
-.kit:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 20px rgba(255,106,0,0.5);
-}
-
-.kit h2 {
-    color: #ff6a00;
-}
-
-.preco {
-    font-size: 28px;
-    font-weight: bold;
-    color: #ff6a00;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-.footer {
-    text-align: center;
-    margin-top: 40px;
-}
-
-/* botão flutuante */
 .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -104,7 +55,6 @@ ul {
     color: white;
     padding: 15px;
     border-radius: 50%;
-    font-size: 22px;
     text-decoration: none;
 }
 </style>
@@ -113,87 +63,17 @@ ul {
 <body>
 
 <div class="overlay">
-
 <div class="container">
 
-    <!-- TOPO -->
-    <div class="hero">
-        <h1>Quilo Certo</h1>
-        <p><strong>Sua semana resolvida em minutos</strong></p>
-        <p>Kits de carnes porcionadas para facilitar seu dia a dia</p>
+<h1>Quilo Certo</h1>
+<p style="text-align:center;">Sua semana resolvida em minutos</p>
 
-        <a class="btn" href="https://wa.me/message/Z4WZBHLKSUZDF1">
-            Pedir no WhatsApp
-        </a>
-    </div>
-
-    <!-- ENTREGA -->
-    <div class="card">
-        <h2>🚚 Entrega rápida</h2>
-        <p>Pedido feito hoje, entrega amanhã (D+1)</p>
-        <p>📍 Colombo e região</p>
-    </div>
-
-    <!-- KIT 1 -->
-    <div class="kit">
-        <h2>🥩 Kit Essencial</h2>
-        <p class="preco">R$130</p>
-        <ul>
-            <li>500g Bife patinho</li>
-            <li>500g Carne moída</li>
-            <li>500g Cubos bovino</li>
-            <li>500g Peito de frango</li>
-            <li>500g Strogonoff frango</li>
-        </ul>
-        <a class="btn" href="https://wa.me/message/Z4WZBHLKSUZDF1">Quero esse kit</a>
-    </div>
-
-    <!-- KIT 2 -->
-    <div class="kit">
-        <h2>🥩 Kit Variado</h2>
-        <p class="preco">R$130</p>
-        <ul>
-            <li>500g Bife patinho</li>
-            <li>500g Carne moída</li>
-            <li>500g Strogonoff bovino</li>
-            <li>500g Bisteca de porco</li>
-            <li>500g Peito de frango</li>
-        </ul>
-        <a class="btn" href="https://wa.me/message/Z4WZBHLKSUZDF1">Quero esse kit</a>
-    </div>
-
-    <!-- KIT 3 -->
-    <div class="kit">
-        <h2>🍔 Kit Hambúrguer</h2>
-        <p class="preco">R$60</p>
-        <ul>
-            <li>4 hambúrgueres de costela</li>
-            <li>4 hambúrgueres de patinho</li>
-            <li>ou 8 de patinho</li>
-        </ul>
-        <a class="btn" href="https://wa.me/message/Z4WZBHLKSUZDF1">Quero esse kit</a>
-    </div>
-
-    <!-- DIFERENCIAL -->
-    <div class="card">
-        <h2>⭐ Nosso diferencial</h2>
-        <ul>
-            <li>Carnes selecionadas</li>
-            <li>Produto fresco</li>
-            <li>Já cortadas e porcionadas</li>
-        </ul>
-    </div>
-
-    <!-- FINAL -->
-    <div class="footer">
-        <p>📲 Fale agora no WhatsApp</p>
-        <a class="btn" href="https://wa.me/message/Z4WZBHLKSUZDF1">
-            Fazer Pedido
-        </a>
-    </div>
-
+<div class="kit">
+<h2>Kit Essencial - R$130</h2>
+<a class="btn" href="https://wa.me/message/Z4WZBHLKSUZDF1">Pedir</a>
 </div>
 
+</div>
 </div>
 
 <a class="whatsapp" href="https://wa.me/message/Z4WZBHLKSUZDF1">💬</a>
